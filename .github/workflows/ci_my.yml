@@ -2,6 +2,9 @@ name: Meine CI Pipeline
 
 on: push
 
+env:
+  MEINE_VARIABLE: asdk
+
 jobs:
   tests:
     runs-on: ubuntu-latest
