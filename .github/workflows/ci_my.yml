@@ -8,9 +8,11 @@ env:
 jobs:
   tests:
     runs-on: ubuntu-latest
+    env:
+        MEINE_VARIABLE: neue
     steps:
-      - run: |
-           sudo apt-get update
-           sudo apt-get upgrade -y
+      #- run: |
+      #     sudo apt-get update
+      #     sudo apt-get upgrade -y
       - uses: actions/checkout@v1
   
