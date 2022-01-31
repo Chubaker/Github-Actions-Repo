@@ -1,6 +1,6 @@
 # .github/workflows/ci.yml
 
-name: Unsere CI Pipeline
+name: Unsere erste CI Pipeline
 
 on: push
 
